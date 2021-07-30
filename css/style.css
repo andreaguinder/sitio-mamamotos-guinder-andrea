@@ -1510,7 +1510,7 @@ ul.menu__footer {
   vertical-align: middle;
   align-items: center;
   display: inline-block;
-  background-image: url(/images/bbb.jpg);
+  background-image: url(../images/bbb.jpg);
   overflow: hidden;
 }
 

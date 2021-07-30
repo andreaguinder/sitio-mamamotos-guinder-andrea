@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<!----------Codificaciones---------->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!----------Descripción----------->
+    <meta name="description"
+        content="Casa de Repuestos y Accesorios para motocicletas y cuatriciclos. Encontrá la mejor relación precio/calidad del mercado.">
+    <meta name="keywords"
+        content="MOTOCICLETAS, MOTOS, REPUESTOS, CUATRICICLOS, CUBIERTAS, FILTROS, BATERÍAS, MANUBRIOS, GRIPS, CARBURADORES">
+<!-----Bots y especificaciones---->
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <meta name="ROBOTS" content="ALL">
+    <meta name="revisit-after" content="5 Days">
+    <meta name="language" content="Spanish">
+    <meta http-equiv="Content-Language" content="Es">
+    <meta name="distribution" content="Global">
+    <meta name="GOOGLEBOT" content="index, follow, all">
+<!--------Ciudad y País-------->
+    <meta name="city" content="Buenos Aires">
+    <meta name="country" content="Argentina">
+<!--------Tipo de web------->
+    <meta name="resource-type" content="Document">
+    <meta name="doc-type" content="Web Page">
+<!--------Autor y titulo-------->
+    <meta name="author" content="Andrea Belén Guinder Vichich">
+    <meta name="title" content="Mamamotos Argentina, casa de repuestos y accesorios para motocicletas y cuatriciclos">
+<!-------CSS Bootstrap y propio------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<!--------Jquery-------->
+    <script src="js/jquery-3.6.0.min.js"></script>
+<!--------Popper-------->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+<!------JavaScript----->
+    <script src="js/bootstrap.min.js"></script>
+<!----Fuentes Google Fonts---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet">
+<!------Icono en URL------>
+    <link rel="shortcut icon" href="images/logomm.png" type="image/x-icon">
+<!-----CDN Fontawesome (Para iconos)----->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Mamamotos Argentina</title>
+</head>
+
+
+<body>
+    <!---------Navegación con Bootstrap y personalizado-------->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-3"
+            style="background-image: url(/images/bbb.jpg); min-height: 140px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/images/logomm.png" alt="Logo Mamamotos" height="auto" width="300em"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler btn-lonely border-2 border-secondary" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <a class="nav-link active btn btn-dark btn-lonely mx-1" aria-current="page"
+                            href="/index.html">INICIO</a>
+                        <a class="nav-link btn btn-dark btn-lonely mx-1" href="/pages/productos.html">PRODUCTOS</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn btn-dark btn-lonely mx-1" data-bs-toggle="dropdown"
+                                role="button" aria-expanded="false">NOSOTROS</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/pages/nosotros.html">Sobre la Empresa</a></li>
+                                <li><a class="dropdown-item" href="/pages/politicas-de-privacidad.html">Políticas de
+                                        Privacidad</a></li>
+                                <li><a class="dropdown-item" href="/pages/terminos-y-condiciones.html">Términos y
+                                        Condiciones</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link btn btn-dark btn-lonely mx-1" href="/pages/contacto.html">CONTACTO</a>
+                        <a class="nav-link btn btn-dark btn-lonely mx-1" href="/pages/tienda.html">TIENDA</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!----------Primera Sección: Carrousel con Bootstrap----------->
+        <section id="section1Index">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/bannerslice1.jpg" class="d-block w-100" alt="Presentación Mamamotos">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/bannerslice2.jpg" class="d-block w-100" alt="Banner Nayasa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/bannerslice3.jpg" class="d-block w-100" alt="Banner Kenda">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!----------Segunda Sección: Galería con Bootstrap enlace a Mercado Shops---------->
+        <section id="section2Index">
+
+            <div class="text-center pt-3">
+                <h3> Venta de cubiertas, repuestos y accesorios para motocicletas </h3>
+            </div>
+
+            <div class="container gale-index">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12"><a target="_blank"
+                            href="https://mamamotos.mercadoshops.com.ar/accesorios">
+                            <img src="./images/gale-index-accesorios.jpg" alt="Accesorios para tu moto"
+                                class="img-fluid"></a></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12"><a target="_blank"
+                            href="https://mamamotos.mercadoshops.com.ar/cubiertas">
+                            <img src="./images/gale-index-cubiertas.jpg" alt="Cubiertas" class="img-fluid"></a></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12"><a target="_blank"
+                            href="https://mamamotos.mercadoshops.com.ar/bujias">
+                            <img src="./images/gale-index-bujias.jpg" alt="Bujías" class="img-fluid"></a></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12"><a target="_blank"
+                            href="https://mamamotos.mercadoshops.com.ar/filtros">
+                            <img src="./images/gale-index-filtros.jpg" alt="Filtros" class="img-fluid"></a></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12"><a target="_blank"
+                            href="https://mamamotos.mercadoshops.com.ar/baterias">
+                            <img src="./images/gale-index-baterias.jpg" alt="Baterías" class="img-fluid"></a></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12"><a target="_blank"
+                            href="https://mamamotos.mercadoshops.com.ar/manubrios">
+                            <img src="./images/gale-index-manubrios.jpg" alt="Manubrios" class="img-fluid"></a></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!----------Tercera Sección: Banner publicitario todo el ancho de pág (luego pago)--------->
+        <section id="section3Index" class="pt-3">
+            <div>
+                <img src="./images/bannerpublicitario.jpg" width="100%">
+            </div>
+        </section>
+
+        <!----------Cuarta Sección: Cards de Clientes Bootstrap----------->
+
+        <section class="container p-2 mt-3">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/images/cliente1.jpg" class="card-img-top" alt="Cliente 1">
+                        <div class="card-body">
+                            <h4 class="card-title"> Juan Colucci</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                                obcaecati. Dicta non voluptatibus quibusdam cumque, labore nulla ex quas saepe?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/images/cliente2.jpg" class="card-img-top" alt="Cliente 2">
+                        <div class="card-body">
+                            <h4 class="card-title"> Norma Fuentes </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                                repellendus modi beatae id animi tempora, dolorum quis neque esse deserunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/images/cliente3.jpg" class="card-img-top" alt="Cliente 3">
+                        <div class="card-body">
+                            <h4 class="card-title"> Ruben Mateo </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestias
+                                sint illo fugiat laborum soluta dolores laudantium quas ad quam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------Quinta Sección: con Bootstrap----------->
+        <section id="section5Index" class="p-4">
+            <div id="indexContact">
+                <h3>Solicitá tu presupuesto ahora</h3>
+                <div id="buttonContact" class="p-3" data-bs-target="#navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <a class="nav-link active btn btn-dark btn-lonely mx-1 border-2 border-secondary" type="button"
+                        role="button" aria-current="page" href="/pages/contacto.html">CONTACTO</a></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--------Footer responsive con Grids y media queries-------->
+    <footer>
+        <div class="container__footer">
+
+            <div><img src="/images/logomm.png" alt="Logo Mamamotos" width="80%"></div>
+
+            <div>
+                <p class="menu__footer"> Tres de Febrero, Caseros </p>
+                <p class="menu__footer"> Buenos Aires, Argentina </p>
+            </div>
+
+            <div id="menu__inf">
+                <nav>
+                    <ul class="menu__footer">
+                        <li class="focusHover"><a href="index.html"> Inicio </a></li>
+                        <li class="focusHover"><a href="/pages/productos.html"> Productos </a></li>
+                        <li class="focusHover"><a href="/pages/nosotros.html"> Sobre Nosotros </a></li>
+                        <li class="focusHover"><a href="/pages/contacto.html"> Contacto </a></li>
+                        <li class="focusHover"><a href="/pages/tienda.html"> Tienda</a></li>
+                        <li class="focusHover"><a href="/pages/terminos-y-condiciones.html"> Términos y Condiciones </a>
+                        </li>
+                        <li class="focusHover"><a href="/pages/politicas-de-privacidad.html"> Políticas de Privacidad
+                            </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <p class="menu__footer"> motoscm@outlook.com </p>
+                <a target="_blank" href="https://www.facebook.com/mamamotosargentina/"> <img src="/images/logoface.png"
+                        alt="redireccionar a facebook" style="margin: 0% 4% 0% 0%"></a>
+                <a target="_blank" href="https://www.instagram.com/mamamotosargentina/"> <img src="/images/logoig.png"
+                        alt="redireccionar a instagram"></a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

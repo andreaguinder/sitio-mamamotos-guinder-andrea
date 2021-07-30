@@ -1,0 +1,46 @@
+/*paleta de colores y sombras*/
+
+$color1: rgb(36,0214,0);
+$color2: rgb(255, 255, 255);
+$color3: rgb(0, 0, 0);
+$color4: rgb(121, 121, 121);
+$color5: rgb(88, 88, 88);
+$color6: rgba(255, 255, 255, 0.651);
+
+/*sombras*/
+
+$shadow-all: 2px 2px 2px rgba(59, 59, 59, 0.75);
+$shadow-all-border: 2px 1px 2px 1px rgba(102, 102, 102, 0.5);
+$shadow-all-power: 5px 5px 10px #333;
+$box-shadow-bottom: 0px 5px 7px 0px rgba(59, 59, 59, 0.75);
+$box-shadow-box: 4px 4px 4px 1px rgba(156, 156, 156, 0.774);
+$box-shadow-top: 0px -5px 7px 0px rgba(59, 59, 59, 0.75);
+$box-shadow-none: 0px 0px 0px 0px;
+
+/*bordes*/
+$border-left: 4px solid $color5;
+$border-right: 4px solid $color1;
+
+/*tamaños*/
+
+$size1: 12px;
+$size2: 14px;
+$size3: 16px;
+$size4: 18px;
+$size5: 20px;
+
+$var1: 100%;
+$var2: 50%;
+
+/*los H*/
+
+h5{
+    font-size: 16px;
+    color: $color2;
+}
+
+h3{
+    font-size: 20px;
+    color: $color2;
+}
+

@@ -1,0 +1,107 @@
+#pag__error {
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  align-items: center;
+  display: inline-block;
+  background-image: url(/images/bbb.jpg);
+  overflow: hidden;
+}
+
+.h2__error {
+  font-size: 100px;
+  text-align: center;
+  font-style: italic;
+}
+
+.degrad {
+  background: linear-gradient(50deg, #686767, white, black);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.sombra_movil {
+  transform: translateX(0);
+  transition-duration: 0.3s;
+}
+
+.sombra_movil:before {
+  opacity: 0.4;
+  transform: translateY(6px);
+  position: auto;
+  -webkit-animation: 1.5s moversombra infinite;
+          animation: 1.5s moversombra infinite;
+}
+
+@-webkit-keyframes moversombra {
+  50% {
+    opacity: 1;
+    -webkit-transform: translateY(3px);
+  }
+}
+
+@keyframes moversombra {
+  50% {
+    opacity: 1;
+    -webkit-transform: translateY(3px);
+  }
+}
+.sombra_movil:before {
+  content: "";
+  top: 100%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(center, ellipse, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+  transition-duration: 0.3s;
+}
+
+.h1__error {
+  font-size: 200px;
+  text-align: center;
+  font-weight: bold;
+  background: -webkit-linear-gradient(100deg, white, white, black);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  opacity: 0.4;
+  transform: translateY(20px);
+  -webkit-animation: 1.5s moversombra infinite;
+          animation: 1.5s moversombra infinite;
+}
+
+.h3__error {
+  background: -webkit-linear-gradient(50deg, #686767, white, black);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.intermitente {
+  -webkit-animation: 2s intermitente infinite;
+          animation: 2s intermitente infinite;
+}
+
+@-webkit-keyframes intermitente {
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes intermitente {
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=error.css.map */

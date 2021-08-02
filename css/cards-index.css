@@ -40,7 +40,7 @@
 .blog-card .details ul {
   margin: auto;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
 }
 .blog-card .details {
   position: absolute;
@@ -56,11 +56,11 @@
   font-size: 0.9rem;
 }
 .blog-card .details a {
-  -webkit-text-decoration: dotted underline;
-          text-decoration: dotted underline;
+  text-decoration: none;
 }
 .blog-card .details ul li {
   display: inline-block;
+  list-style: none;
 }
 .blog-card .details .author:before {
   font-family: "kanit";
@@ -71,17 +71,6 @@
   font-family: "kanit";
   margin-right: 10px;
   content: "";
-}
-.blog-card .details .tags ul:before {
-  font-family: "kanit";
-  content: "";
-  margin-right: 10px;
-}
-.blog-card .details .tags li {
-  margin-right: 2px;
-}
-.blog-card .details .tags li:first-child {
-  margin-left: -4px;
 }
 .blog-card .description {
   padding: 1rem;

@@ -22,6 +22,10 @@ body {
 
 /*------------------INDEX RESPONSIVE-----------------*/
 
+#section1-index{
+    margin-bottom: 5rem;
+}
+
 @media only screen and (min-width: 360px) {
 
     #index__bigscreen{
@@ -79,18 +83,30 @@ main {
 /*-------GALERÍA INDEX CON BOOTSTRAP--------*/
 /*-------GALERÍA INDEX CON BOOTSTRAP--------*/
 
-#section2Index .col-lg-4{
-    padding: 0.9%;
-}
+#section2-index{
 
-#section2Index img:hover {
+    .col-lg-4{
+    padding: 0.9%;
+    }
+
+    img{
+        border: ($size5 - $size1) solid $color7;
+    }
+
+    img:hover {
     border: $size5 - $size1 solid $color2;
-    border-radius: $size1/3;
+    border-radius: $size1/2;
     box-shadow: $box-shadow-box;
+    }
 }
 
 .gale-index{
     justify-content: center;
+    margin-bottom: 5rem;
+}
+
+#section3-index{
+    margin-bottom: 5rem;
 }
 
 /*------------CARDS INDEX CON BOOTSTRAP-------------*/

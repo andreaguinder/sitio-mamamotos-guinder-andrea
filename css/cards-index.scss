@@ -52,7 +52,7 @@ $color_grey_dark: #a2a2a2;
     .details ul {
         margin: auto;
         padding: 0;
-        list-style: none;
+        list-style-type: none;
     }
 
     .details {
@@ -69,11 +69,12 @@ $color_grey_dark: #a2a2a2;
         font-size: .9rem;
 
         a {
-            text-decoration: dotted underline
+            text-decoration: none;
         }
 
         ul li {
             display: inline-block;
+            list-style: none;
         }
 
         .author:before {
@@ -87,24 +88,7 @@ $color_grey_dark: #a2a2a2;
             margin-right: 10px;
             content: "\f133";
         }
-
-        .tags {
-            ul:before {
-                font-family: "kanit";
-                content: "\f02b";
-                margin-right: 10px;
-            }
-
-            li {
-                margin-right: 2px;
-
-                &:first-child {
-                    margin-left: -4px;
-                }
-            }
-        }
     }
-
     .description {
         padding: 1rem;
         background: $color_white;

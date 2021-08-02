@@ -6,6 +6,12 @@
 
 @import "datos";
 @import "btn-lonely";
+@import "cards-index";
+
+.h5__cards{
+    color: $color1;
+    font-size: $size1*2;
+}
 
 body {
     background-image: url(../images/bbb-whopa.jpg);

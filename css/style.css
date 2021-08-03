@@ -216,6 +216,13 @@ h3 {
   color: #24d600;
 }
 
+.button #whatsapp {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  background: transparent;
+}
+
 .h5__cards {
   color: #24d600;
   font-size: 24px;

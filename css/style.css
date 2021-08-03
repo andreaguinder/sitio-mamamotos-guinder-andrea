@@ -248,12 +248,47 @@ body {
   #index__mobile {
     display: flex;
     padding: 0%;
+    margin: 0%;
+    background-size: 100%;
   }
 
   .carousel__texto {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: black;
     color: white;
     align-items: center;
+    height: 70px;
+  }
+
+  .h4__carousel--mod {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.651);
+  }
+
+  .p__carrousel {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #index__bigscreen {
+    display: none;
+  }
+
+  #index__mobile {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .carousel__texto {
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 70px;
+    margin: 0%;
+    background-size: 100%;
   }
 
   .h4__carousel--mod {

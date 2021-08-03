@@ -43,12 +43,48 @@ body {
     #index__mobile{
         display: flex;
         padding: 0%;
+        margin: 0%;
+        background-size: $var1;
     }
 
     .carousel__texto{
-    background-color: rgba($color3, $alpha: 0.75);
+    background-color: $color3;
     color: $color2;
     align-items: center;
+    height: 70px;
+    }
+
+    .h4__carousel--mod{
+    font-size: $size3;
+    color: $color6;
+    }
+
+    .p__carrousel{
+    text-align: center;
+    font-size: $size1;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    #index__bigscreen{
+        display: none;
+    }
+
+    #index__mobile{
+        display: flex;
+        padding: 0%;
+        margin: 0%;
+        background-size: $var1;
+        background-position: center;
+    }
+
+    .carousel__texto{
+    background-color: $color3;
+    color: $color2;
+    align-items: center;
+    height: 70px;
+    margin: 0%;
+    background-size: 100%;
     }
 
     .h4__carousel--mod{

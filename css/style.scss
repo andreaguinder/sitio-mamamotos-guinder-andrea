@@ -80,7 +80,8 @@ body {
 }
 
 .dropdown-menu{
-    background-image: url(../images/bbb-wh.jpg);
+    background-image: url(../images/bbb-whopasmall.jpg);
+    background-size: cover;
 }
 
 main {
@@ -158,6 +159,10 @@ h4 {
         grid-template-columns: 1fr;
     }
 
+    .logo__footer{
+        margin: 8% 0% 0% 0%;
+    }
+
 }
 
 @media only screen and (min-width: 480px) {
@@ -169,6 +174,10 @@ h4 {
 
     .container__footer {
         grid-template-columns: 1fr;
+    }
+
+    .logo__footer{
+        margin: 8% 0% 0% 0%;
     }
     
 }
@@ -196,6 +205,7 @@ h4 {
     .container__footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
 }
 
 @media only screen and (min-width: 1024px) {

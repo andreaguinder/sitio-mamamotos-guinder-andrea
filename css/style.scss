@@ -386,9 +386,13 @@ ul.menu__footer{
     margin: 10rem 3rem 5rem 3rem;
 }
 
-.carousel-inner {
+.carousel-nosotros {
     width: $var1;
     height: 40vh;
+}
+
+.video-nosotros{
+    border: ($size5 - $size1) solid $color7;
 }
 
 /*--------------------------PÁGINA DE PRODUCTOS-----------------------*/

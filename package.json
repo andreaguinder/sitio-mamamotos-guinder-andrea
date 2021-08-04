@@ -1,0 +1,26 @@
+{
+  "name": "sitio-mamamotos-guinder-andrea",
+  "version": "1.0.0",
+  "description": "sitio web de casa de repuestos Mamámotos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaguinder/sitio-mamamotos-guinder-andrea.git"
+  },
+  "keywords": [
+    "repuestos",
+    "cubiertas",
+    "cámaras",
+    "motocicletas",
+    "cuatriciclos"
+  ],
+  "author": "Andrea Belén Guinder Vichich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreaguinder/sitio-mamamotos-guinder-andrea/issues"
+  },
+  "homepage": "https://github.com/andreaguinder/sitio-mamamotos-guinder-andrea#readme"
+}

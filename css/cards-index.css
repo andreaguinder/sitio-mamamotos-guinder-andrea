@@ -1,16 +1,21 @@
 @charset "UTF-8";
+.cards-clientes {
+  justify-content: space-around;
+  margin: auto;
+  align-content: center;
+}
+
 .blog-card {
   display: flex;
   flex-direction: column;
-  margin: 1rem auto;
+  width: 365px;
+  height: auto;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.6%;
   background: #fff;
   line-height: 1.4;
   font-family: "kanit";
   border-radius: 5px;
   overflow: hidden;
-  z-index: 0;
 }
 .blog-card a {
   color: inherit;

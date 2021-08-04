@@ -274,7 +274,7 @@ body {
     font-size: 12px;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   #index__bigscreen {
     display: none;
   }
@@ -284,7 +284,6 @@ body {
     padding: 0%;
     margin: 0%;
     background-size: 100%;
-    background-position: center;
   }
 
   .carousel__texto {
@@ -292,8 +291,6 @@ body {
     color: white;
     align-items: center;
     height: 70px;
-    margin: 0%;
-    background-size: 100%;
   }
 
   .h4__carousel--mod {
@@ -1501,7 +1498,18 @@ ul.menu__footer {
   color: white;
 }
 
+.form__contact {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.774);
+  border-radius: 5px;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 470px) {
+  .form__contact {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.774);
+  }
+
   .contact__h1 {
     font-size: 38px;
   }

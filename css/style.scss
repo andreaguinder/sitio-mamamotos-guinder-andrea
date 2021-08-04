@@ -64,7 +64,8 @@ body {
     font-size: $size1;
     }
 }
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 
     #index__bigscreen{
         display: none;
@@ -75,7 +76,6 @@ body {
         padding: 0%;
         margin: 0%;
         background-size: $var1;
-        background-position: center;
     }
 
     .carousel__texto{
@@ -83,8 +83,6 @@ body {
     color: $color2;
     align-items: center;
     height: 70px;
-    margin: 0%;
-    background-size: 100%;
     }
 
     .h4__carousel--mod{
@@ -1343,7 +1341,18 @@ ul.menu__footer{
     color: $color2;
 }
 
+.form__contact{
+    color: $color2;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 5px;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 470px) {
+
+    .form__contact{
+        color: $color2;
+        background-color: rgba(0, 0, 0, 0.774);
+    }
 
     .contact__h1 {
         font-size: $size5 + $size4;

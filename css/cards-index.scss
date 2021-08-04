@@ -11,6 +11,7 @@ $color_grey_dark: #a2a2a2;
 }
 
 .blog-card {
+    padding-left: 0;
     display: flex;
     flex-direction: column;
     width: 365px;
@@ -85,13 +86,11 @@ $color_grey_dark: #a2a2a2;
         .author:before {
             font-family: "kanit";
             margin-right: 10px;
-            content: "\f007";
         }
 
         .date:before {
             font-family: "kanit";
             margin-right: 10px;
-            content: "\f133";
         }
     }
     .description {
@@ -128,7 +127,6 @@ $color_grey_dark: #a2a2a2;
                 position: relative;
 
                 &:after {
-                    content: "\f061";
                     font-family: "kanit";
                     margin-left: -10px;
                     opacity: 0;
@@ -152,7 +150,6 @@ $color_grey_dark: #a2a2a2;
             margin-top: 1.25rem;
 
             &:before {
-                content: "";
                 position: absolute;
                 height: 5px;
                 background: $color_prime;

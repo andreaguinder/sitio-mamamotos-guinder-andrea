@@ -45,6 +45,7 @@ h3 {
 }
 
 .blog-card {
+  padding-left: 0;
   display: flex;
   flex-direction: column;
   width: 365px;
@@ -109,12 +110,10 @@ h3 {
 .blog-card .details .author:before {
   font-family: "kanit";
   margin-right: 10px;
-  content: "";
 }
 .blog-card .details .date:before {
   font-family: "kanit";
   margin-right: 10px;
-  content: "";
 }
 .blog-card .description {
   padding: 1rem;
@@ -147,7 +146,6 @@ h3 {
   position: relative;
 }
 .blog-card .description .read-more a:after {
-  content: "";
   font-family: "kanit";
   margin-left: -10px;
   opacity: 0;
@@ -166,7 +164,6 @@ h3 {
   margin-top: 1.25rem;
 }
 .blog-card p:first-of-type:before {
-  content: "";
   position: absolute;
   height: 5px;
   background: #24d600;
@@ -226,6 +223,7 @@ h3 {
   bottom: 60px;
   right: 30px;
   background: transparent;
+  z-index: 100;
 }
 
 .h5__cards {
@@ -246,6 +244,10 @@ body {
 }
 
 @media only screen and (min-width: 360px) {
+  #section1-index {
+    margin-bottom: 8%;
+  }
+
   #index__bigscreen {
     display: none;
   }
@@ -272,6 +274,10 @@ body {
   .p__carrousel {
     text-align: center;
     font-size: 12px;
+  }
+
+  .img-gale {
+    margin: 5% 2% 5% 2%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {

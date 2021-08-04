@@ -13,6 +13,7 @@
     bottom: 60px;
     right: 30px;
     background: transparent;
+    z-index: 100;
 }
 
 
@@ -35,6 +36,10 @@ body {
 }
 
 @media only screen and (min-width: 360px) {
+
+    #section1-index{
+        margin-bottom: 8%;
+    }
 
     #index__bigscreen{
         display: none;
@@ -62,6 +67,10 @@ body {
     .p__carrousel{
     text-align: center;
     font-size: $size1;
+    }
+
+    .img-gale{
+        margin: 5% 2% 5% 2%;
     }
 }
 
@@ -163,7 +172,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 
 /*------Footer Responsive con Grids y Media Queries--------*/
 /*------Footer Responsive con Grids y Media Queries--------*/

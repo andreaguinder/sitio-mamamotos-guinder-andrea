@@ -1355,18 +1355,19 @@ ul.menu__footer{
     border-radius: 5px;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 470px) {
+fieldset{
+    border: 2px solid $color2;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
 
-    .form__contact{
-        color: $color2;
-        background-color: rgba(0, 0, 0, 0.774);
-    }
+@media only screen and (min-width: 360px) and (max-width: 480px) {
 
     .contact__h1 {
         font-size: $size5 + $size4;
     }
 
-    #contactPage{
+    #contact__page{
         background-image: none;
     }
 
@@ -1389,21 +1390,6 @@ ul.menu__footer{
     text-align: center;
     color: $color2;
     }
-
-    #form{
-        color: $color2;
-        margin: 2% 5% 2% 5%;
-        padding: 2% 2% 2% 2%;
-        background-color: rgba(0, 0, 0, 0.774);
-        background-size: 340px;
-        background-position: center;
-        justify-content: center;
-        align-items: center;
-        padding: 1% 1% 1% 1%;
-    }
-    .logoMmCont{
-        width: 40%;
-    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
@@ -1412,7 +1398,7 @@ ul.menu__footer{
         font-size: $size1 *4;
     }
 
-    #contactPage{
+    #contact__page{
         background-image: none;
     }
 
@@ -1429,17 +1415,6 @@ ul.menu__footer{
     align-items: center;
     background-position-x: center;
     text-align: center;
-    }
-
-    #form{
-        margin: 2% 5% 2% 5%;
-        color: $color2;
-        background-color: rgba(0, 0, 0, 0.774);
-        background-position: center;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 1% 1% 1% 1%;
     }
 
 }
@@ -1450,7 +1425,7 @@ ul.menu__footer{
         font-size: $size1 *4;
     }
 
-    #contactPage{
+    #contact__page{
         background-image: none;
     }
 
@@ -1468,18 +1443,6 @@ ul.menu__footer{
     background-position-x: center;
     text-align: center;
     }
-
-    #form{
-        margin: 2% 5% 2% 5%;
-        color: $color2;
-        background-color: rgba(0, 0, 0, 0.774);
-        background-position: center;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 1% 1% 1% 1%;
-    }
-
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -1488,7 +1451,7 @@ ul.menu__footer{
         font-size: $size1 *4;
     }
 
-    #contactPage{
+    #contact__page{
         background-image: none;
     }
 
@@ -1507,29 +1470,16 @@ ul.menu__footer{
     background-position-x: center;
     text-align: center;
     }
-
-    #form{
-        margin: 2% 5% 2% 5%;
-        color: $color2;
-        background-color: rgba(0, 0, 0, 0.774);
-        background-position: center;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 1% 1% 1% 1%;
-    }
-
 }
-
 @media only screen and (min-width: 1024px) {
 
-        #contactPage{
+        #contact__page{
             margin-top: 160px;
             justify-content: center;
             align-items: center;
             text-align: center;
             background-image: url(../images/background-contactus2.jpg);
-            background-size: 100%;
+            background-size: $var1;
             background-repeat: no-repeat;
             background-position-x: center;
         }
@@ -1546,45 +1496,19 @@ ul.menu__footer{
             font-size: $size1 *4.5;
         }
         
-        .logoMmCont {
-            width: 100%;
+        .logo__contact {
+            width: $var1;
         }
-        
-        #form {
-            background-color: rgba(0, 0, 0, 0.774);
-            width: 40%;
-            justify-content: center;
-            text-align: left;
-            font-family: "Kanit";
-            font-size: 14px;
-            font-style: normal;
-            font-weight: lighter;
-            color: $color2;
-            margin: 1% 1% 1% 1%;
-            padding: 1% 1% 1% 1%;
-        }
-        
-        fieldset{
-            border: 2px solid $color2;
-            padding-left: 1rem;
-            padding-bottom: 1rem;
-        }
-        
-        .form-elegir {
-            text-transform: lowercase, capitalize;
-            line-height: 18px;
-        }
-        
-}
+    }
 
 @media only screen and (min-width: 1200px) {
-    #contactPage{
+    #contact__page{
         margin-top: 160px;
         justify-content: center;
         align-items: center;
         text-align: center;
         background-image: url(../images/background-contactus2.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position-x: center;
     }
@@ -1602,33 +1526,8 @@ ul.menu__footer{
         font-size: $size1 *6;
     }
     
-    .logoMmCont {
-        width: 100%;
-    }
-    
-    #form {
-        background-color: rgba(0, 0, 0, 0.774);
-        width: 40%;
-        justify-content: center;
-        text-align: left;
-        font-family: "Kanit";
-        font-size: 14px;
-        font-style: normal;
-        font-weight: lighter;
-        color: $color2;
-        margin: 1% 1% 1% 1%;
-        padding: 1% 1% 1% 1%;
-    }
-    
-    fieldset{
-        border: 2px solid $color2;
-        padding-left: 1rem;
-        padding-bottom: 1rem;
-    }
-    
-    .form-elegir {
-        text-transform: lowercase, capitalize;
-        line-height: 18px;
+    .logo__contact {
+        width: $var1;
     }
     
 }
@@ -1644,11 +1543,6 @@ ul.menu__footer{
     color: rgba(0, 0, 0, 0.637);
 }
 
-#mainContact {
-    margin: 0%;
-    padding: 0%;
-}
-
 #mapa {
     border-top: double 10px rgba(0, 0, 0, 0.637);
     border-right: none;
@@ -1660,7 +1554,3 @@ ul.menu__footer{
 }
 
 @import "error";
-
-.p__probandogit{
-    color: tomato;
-}

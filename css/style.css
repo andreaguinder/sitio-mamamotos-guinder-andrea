@@ -1500,12 +1500,18 @@ ul.menu__footer {
 /*------------------PÁGINA DE CONTACTO----------------*/
 /*------------------PÁGINA DE CONTACTO----------------*/
 /*-------Main Contacto con Bootstrap--------*/
+h5 {
+  font-size: 26px;
+  text-shadow: 2px 2px 2px rgba(59, 59, 59, 0.75);
+}
+
 #main__contact {
   margin-top: 8.5rem;
 }
 
 .contact__h1--color {
   color: white;
+  text-shadow: 2px 2px 2px rgba(59, 59, 59, 0.75);
 }
 
 .form__contact {
@@ -1541,11 +1547,6 @@ fieldset {
     background-image: none;
   }
 
-  h5 {
-    font-size: 20px;
-    text-shadow: 2px 2px 2px rgba(59, 59, 59, 0.75);
-  }
-
   .logo__contact {
     width: 75%;
   }
@@ -1553,10 +1554,15 @@ fieldset {
   #contact__us {
     background-image: url(../images/background-contactus2.jpg);
     background-size: cover;
+    margin-bottom: 1rem;
     align-items: center;
     background-position-x: center;
     text-align: center;
     color: white;
+  }
+
+  h5 {
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 600px) {
@@ -1565,7 +1571,7 @@ fieldset {
   }
 
   .contact__h1 {
-    font-size: 48px;
+    font-size: 38px;
   }
 
   #contact__page {
@@ -1577,33 +1583,22 @@ fieldset {
   }
 
   #contact__us {
-    margin: 2% 5% 2% 5%;
-    padding: 2% 2% 2% 2%;
     background-image: url(../images/background-contactus2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    margin-bottom: 1rem;
     align-items: center;
     background-position-x: center;
     text-align: center;
+    color: white;
   }
 }
 @media only screen and (min-width: 600px) {
   .grid__contact {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .grid__contact--item1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-
-  .grid__contact--item2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-template-columns: 1fr;
   }
 
   .contact__h1 {
-    font-size: 48px;
+    font-size: 38px;
   }
 
   #contact__page {
@@ -1617,10 +1612,11 @@ fieldset {
   #contact__us {
     background-image: url(../images/background-contactus2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    margin-bottom: 1rem;
     align-items: center;
     background-position-x: center;
     text-align: center;
+    color: white;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1639,7 +1635,8 @@ fieldset {
   }
 
   .logo__contact {
-    width: 75%;
+    width: 90%;
+    margin-bottom: 1rem;
   }
 
   #contact__us {

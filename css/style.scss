@@ -1345,12 +1345,18 @@ ul.menu__footer{
 
 /*-------Main Contacto con Bootstrap--------*/
 
+h5{
+    font-size: $size5 + $size1/2;
+    text-shadow: $shadow-all;
+}
+
 #main__contact{
     margin-top: 8.5rem;
 }
 
 .contact__h1--color{
     color: $color2;
+    text-shadow: $shadow-all;
 }
 
 .form__contact{
@@ -1386,9 +1392,36 @@ fieldset{
         background-image: none;
     }
 
+    .logo__contact {
+        width: ($var1) - ($var2/2);
+    }
+
+    #contact__us{
+    background-image: url(../images/background-contactus2.jpg);
+    background-size: cover;
+    margin-bottom: 1rem;
+    align-items: center;
+    background-position-x: center;
+    text-align: center;
+    color: $color2;
+    }
+
     h5{
         font-size: $size5;
-        text-shadow: $shadow-all;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+    .grid__contact{
+        grid-template-columns: 1fr;
+    }
+
+    .contact__h1 {
+        font-size: $size5 + $size4;
+    }
+
+    #contact__page{
+        background-image: none;
     }
 
     .logo__contact {
@@ -1398,6 +1431,7 @@ fieldset{
     #contact__us{
     background-image: url(../images/background-contactus2.jpg);
     background-size: cover;
+    margin-bottom: 1rem;
     align-items: center;
     background-position-x: center;
     text-align: center;
@@ -1405,13 +1439,13 @@ fieldset{
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 600px) {
-
+@media only screen and (min-width: 600px) {
     .grid__contact{
         grid-template-columns: 1fr;
     }
+
     .contact__h1 {
-        font-size: $size1 *4;
+        font-size: $size5 + $size4;
     }
 
     #contact__page{
@@ -1423,56 +1457,16 @@ fieldset{
     }
 
     #contact__us{
-    margin: 2% 5% 2% 5%;
-    padding: 2% 2% 2% 2%;
     background-image: url(../images/background-contactus2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    margin-bottom: 1rem;
     align-items: center;
     background-position-x: center;
     text-align: center;
-    }
-
-}
-
-@media only screen and (min-width: 600px) {
-
-    .grid__contact{
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .grid__contact--item1{
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-
-    .grid__contact--item2{
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-
-    .contact__h1 {
-        font-size: $size1 *4;
-    }
-
-    #contact__page{
-        background-image: none;
-    }
-
-    .logo__contact {
-        width: ($var1) - ($var2/2);
-    }
-
-    #contact__us{
-
-    background-image: url(../images/background-contactus2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;
-    background-position-x: center;
-    text-align: center;
+    color: $color2;
     }
 }
+
 @media only screen and (min-width: 768px){
 
     .grid__contact{
@@ -1490,7 +1484,8 @@ fieldset{
     }
 
     .logo__contact {
-        width: ($var1) - ($var2/2);
+        width: ($var1) - 10;
+        margin-bottom: 1rem;
     }
 
     #contact__us{

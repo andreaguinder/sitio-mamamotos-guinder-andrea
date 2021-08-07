@@ -137,7 +137,7 @@ $color_grey_dark: #a2a2a2;
     }
 
 
-    @media (min-width: 640px) {
+    @media (min-width: 360px) {
         flex-direction: row;
 
         .meta {
@@ -185,23 +185,4 @@ $color_grey_dark: #a2a2a2;
 
 .h5__cards{
     color: rgb(36,0214,0);
-}
-
-@media screen and (min-width: 360px){
-
-    .blog-card{
-        height: 280px;
-        width: 350px;
-    }
-
-    .photo {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-size: cover;
-        background-position: center;
-        transition: transform .2s;
-    }
 }

@@ -1,46 +1,32 @@
-
 $color_white: #fff;
 $color_prime: rgb(36,0214,0);
 $color_grey: #e2e2e2;
 $color_grey_dark: #a2a2a2;
 
-.cards-clientes{
-    justify-content: space-around;
-    margin: auto;
-    align-content: center;
-}
 
 .blog-card {
+    height: 280px;
+    width: 350px;
     padding-left: 0;
     display: flex;
-    flex-direction: column;
-    width: 365px;
-    height: auto;
     box-shadow: 0 3px 7px -1px rgba(#000, .1);
     background: $color_white;
     line-height: 1.4;
-    font-family: "kanit";
     border-radius: 5px;
     overflow: hidden;
 
     a {
         color: inherit;
-
-        &:hover {
-            color: $color_prime;
-        }
     }
 
     &:hover {
         .photo {
-            transform: scale(1.3) rotate(3deg);
+            transform: scale(1.3);
         }
     }
 
     .meta {
         position: relative;
-        z-index: 0;
-        height: 200px;
     }
 
     .photo {
@@ -54,10 +40,7 @@ $color_grey_dark: #a2a2a2;
         transition: transform .2s;
     }
 
-    .details,
-    .details ul {
-        margin: auto;
-        padding: 0;
+    .details, .details ul {
         list-style-type: none;
     }
 
@@ -72,7 +55,7 @@ $color_grey_dark: #a2a2a2;
         color: $color_white;
         padding: 10px;
         width: 100%;
-        font-size: .9rem;
+        font-size: 0.9rem;
 
         a {
             text-decoration: none;
@@ -83,26 +66,16 @@ $color_grey_dark: #a2a2a2;
             list-style: none;
         }
 
-        .author:before {
-            font-family: "kanit";
+        .author, .data:before {
             margin-right: 10px;
         }
 
-        .date:before {
-            font-family: "kanit";
-            margin-right: 10px;
-        }
     }
     .description {
         padding: 1rem;
         background: $color_white;
         position: relative;
         z-index: 1;
-
-        h1,
-        h2 {
-            font-family: "kanit";
-        }
 
         h1 {
             line-height: 1;
@@ -127,7 +100,6 @@ $color_grey_dark: #a2a2a2;
                 position: relative;
 
                 &:after {
-                    font-family: "kanit";
                     margin-left: -10px;
                     opacity: 0;
                     vertical-align: middle;
@@ -160,16 +132,13 @@ $color_grey_dark: #a2a2a2;
         }
     }
 
-    &:hover {
-        .details {
+    &:hover .details {
             left: 0%;
-        }
     }
 
 
     @media (min-width: 640px) {
         flex-direction: row;
-        max-width: 700px;
 
         .meta {
             flex-basis: 40%;
@@ -216,4 +185,23 @@ $color_grey_dark: #a2a2a2;
 
 .h5__cards{
     color: rgb(36,0214,0);
+}
+
+@media screen and (min-width: 360px){
+
+    .blog-card{
+        height: 280px;
+        width: 350px;
+    }
+
+    .photo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        transition: transform .2s;
+    }
 }

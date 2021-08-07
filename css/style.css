@@ -10,11 +10,6 @@
 /*bordes*/
 /*tamaños*/
 /*los H*/
-h5 {
-  font-size: 16px;
-  color: white;
-}
-
 h3 {
   font-size: 20px;
   color: white;
@@ -38,38 +33,25 @@ h3 {
   color: white;
 }
 
-.cards-clientes {
-  justify-content: space-around;
-  margin: auto;
-  align-content: center;
-}
-
 .blog-card {
+  height: 280px;
+  width: 350px;
   padding-left: 0;
   display: flex;
-  flex-direction: column;
-  width: 365px;
-  height: auto;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
   background: #fff;
   line-height: 1.4;
-  font-family: "kanit";
   border-radius: 5px;
   overflow: hidden;
 }
 .blog-card a {
   color: inherit;
 }
-.blog-card a:hover {
-  color: #24d600;
-}
 .blog-card:hover .photo {
-  transform: scale(1.3) rotate(3deg);
+  transform: scale(1.3);
 }
 .blog-card .meta {
   position: relative;
-  z-index: 0;
-  height: 200px;
 }
 .blog-card .photo {
   position: absolute;
@@ -81,10 +63,7 @@ h3 {
   background-position: center;
   transition: transform 0.2s;
 }
-.blog-card .details,
-.blog-card .details ul {
-  margin: auto;
-  padding: 0;
+.blog-card .details, .blog-card .details ul {
   list-style-type: none;
 }
 .blog-card .details {
@@ -107,12 +86,7 @@ h3 {
   display: inline-block;
   list-style: none;
 }
-.blog-card .details .author:before {
-  font-family: "kanit";
-  margin-right: 10px;
-}
-.blog-card .details .date:before {
-  font-family: "kanit";
+.blog-card .details .author, .blog-card .details .data:before {
   margin-right: 10px;
 }
 .blog-card .description {
@@ -120,10 +94,6 @@ h3 {
   background: #fff;
   position: relative;
   z-index: 1;
-}
-.blog-card .description h1,
-.blog-card .description h2 {
-  font-family: "kanit";
 }
 .blog-card .description h1 {
   line-height: 1;
@@ -146,7 +116,6 @@ h3 {
   position: relative;
 }
 .blog-card .description .read-more a:after {
-  font-family: "kanit";
   margin-left: -10px;
   opacity: 0;
   vertical-align: middle;
@@ -177,7 +146,6 @@ h3 {
 @media (min-width: 640px) {
   .blog-card {
     flex-direction: row;
-    max-width: 700px;
   }
   .blog-card .meta {
     flex-basis: 40%;
@@ -218,6 +186,23 @@ h3 {
   color: #24d600;
 }
 
+@media screen and (min-width: 360px) {
+  .blog-card {
+    height: 280px;
+    width: 350px;
+  }
+
+  .photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+  }
+}
 .button #whatsapp {
   position: fixed;
   bottom: 60px;
@@ -1500,7 +1485,7 @@ ul.menu__footer {
 /*------------------PÁGINA DE CONTACTO----------------*/
 /*------------------PÁGINA DE CONTACTO----------------*/
 /*-------Main Contacto con Bootstrap--------*/
-h5 {
+.contact__h5 {
   font-size: 26px;
   text-shadow: 2px 2px 2px rgba(59, 59, 59, 0.75);
 }

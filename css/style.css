@@ -249,7 +249,7 @@ body {
   }
 
   .img-gale {
-    margin: 5% 2% 5% 2%;
+    margin-bottom: 5%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -419,22 +419,18 @@ main {
 /*----------------TIENDA----------------*/
 /*----------------TIENDA----------------*/
 /*----------------TIENDA----------------*/
-.redireccionamiento .redireccionamiento__h1 {
-  font-size: 2rem;
+.redireccionamiento__h1 {
+  font-size: 30px;
   color: #24d600;
-}
-.redireccionamiento .redireccionamiento__h1 .redireccionamiento__h2 {
-  font-size: 1.5rem;
-}
-.redireccionamiento .redireccionamiento__h1 .redireccionamiento__h2 .redireccionamiento__h3 {
-  font-size: 2rem;
 }
 
 .redireccionamiento__h2 {
   color: #797979;
+  font-size: 26px;
 }
 
 .redireccionamiento__h3 {
+  font-size: 18px;
   color: white;
   background-color: #24d600;
   width: auto;
@@ -498,6 +494,7 @@ div.redireccionamiento {
 .accordion-button:not(.collapsed)::after {
   color: #585858;
   transform: rotate(-180deg);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb(36,0214,0)'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
 
 /*------------FOOTER CON GRIDS------------*/
@@ -1639,7 +1636,7 @@ fieldset {
 
   #contact__page {
     background-image: url(../images/background-contactus2.jpg);
-    height: 750px;
+    height: 840px;
     background-repeat: no-repeat;
     background-position-x: center;
   }

@@ -235,7 +235,7 @@ body {
     background-color: black;
     color: white;
     align-items: center;
-    height: 70px;
+    height: 3.5rem;
   }
 
   .h4__carousel--mod {
@@ -268,7 +268,7 @@ body {
     background-color: black;
     color: white;
     align-items: center;
-    height: 70px;
+    height: 3.5rem;
   }
 
   .h4__carousel--mod {
@@ -1732,7 +1732,7 @@ fieldset {
   vertical-align: middle;
   align-items: center;
   display: inline-block;
-  background-image: url(/images/bbb.jpg);
+  background-image: url(../images/bbb.jpg);
   overflow: hidden;
 }
 

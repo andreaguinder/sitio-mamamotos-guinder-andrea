@@ -285,7 +285,7 @@ main {
 }
 
 .redireccionamiento__h3{
-    font-size: $size4;
+    font-size: $size1*2;
     color: $color2;
     background-color: $color1;
     width: auto;
@@ -1374,6 +1374,11 @@ fieldset{
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {
+
+    #main__contact{
+        margin-top: 8.5rem;
+    }
+
     .grid__contact{
         grid-template-columns: 1fr;
     }

@@ -430,7 +430,7 @@ main {
 }
 
 .redireccionamiento__h3 {
-  font-size: 18px;
+  font-size: 24px;
   color: white;
   background-color: #24d600;
   width: auto;
@@ -1504,6 +1504,10 @@ fieldset {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {
+  #main__contact {
+    margin-top: 8.5rem;
+  }
+
   .grid__contact {
     grid-template-columns: 1fr;
   }
@@ -1728,7 +1732,7 @@ fieldset {
   vertical-align: middle;
   align-items: center;
   display: inline-block;
-  background-image: url(../images/bbb.jpg);
+  background-image: url(/images/bbb.jpg);
   overflow: hidden;
 }
 

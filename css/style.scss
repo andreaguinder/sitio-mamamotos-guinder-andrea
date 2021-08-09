@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 html{
@@ -14,8 +15,8 @@ html{
 
 .button #whatsapp {
     position: fixed;
-    bottom: 60px;
-    right: 30px;
+    bottom: 4rem;
+    right: 2rem;
     background: transparent;
     z-index: 100;
 }
@@ -41,10 +42,6 @@ body {
 
 @media only screen and (min-width: 360px) {
 
-    #section1-index{
-        margin-bottom: 8%;
-    }
-
     #index__bigscreen{
         display: none;
     }
@@ -60,7 +57,7 @@ body {
     background-color: $color3;
     color: $color2;
     align-items: center;
-    height: 3.5rem;
+    height: 4rem;
     }
 
     .h4__carousel--mod{
@@ -70,7 +67,7 @@ body {
 
     .p__carrousel{
     text-align: center;
-    font-size: $size1;
+    font-size: $size5/2;
     }
 
     .img-gale{
@@ -95,7 +92,7 @@ body {
     background-color: $color3;
     color: $color2;
     align-items: center;
-    height: 3.5rem;
+    height: 4.5rem;
     }
 
     .h4__carousel--mod{
@@ -132,7 +129,7 @@ body {
 }
 
 main {
-    margin-top: 140px;
+    margin-top: 8.75rem;
 }
 
 /*-------GALERÍA INDEX CON BOOTSTRAP--------*/
@@ -183,10 +180,7 @@ main {
 
 @media only screen and (min-width: 360px) {
 
-    h3{
-        font-size: 0.95em;
-        color: $color5;
-    }
+
 
     .container__footer {
         grid-template-columns: 1fr;
@@ -1353,7 +1347,7 @@ marquee{
 }
 
 #main__contact{
-    margin-top: 8.5rem;
+    margin-top: 10rem;
 }
 
 .contact__h1--color{
@@ -1381,11 +1375,18 @@ fieldset{
     place-items: center;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 480px) {
 
-    #main__contact{
-        margin-top: 8.5rem;
-    }
+
+.btn-outline-success:hover {
+    background-color: $color2;
+    border-color: $color1;
+}
+
+.form-check-input:checked {
+    background-color: $color1;
+    border-color: $color1;
+}
+@media only screen and (min-width: 360px) and (max-width: 480px) {
 
     .grid__contact{
         grid-template-columns: 1fr;
@@ -1413,12 +1414,14 @@ fieldset{
     color: $color2;
     }
 
-    h5{
-        font-size: $size5;
+    .contact__h5{
+        font-size: $size4;
+        padding: 0.5rem;
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
+
     .grid__contact{
         grid-template-columns: 1fr;
     }
@@ -1444,6 +1447,12 @@ fieldset{
     text-align: center;
     color: $color2;
     }
+
+    .contact__h5{
+        font-size: $size5;
+        padding: 0.5rem;
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -1465,12 +1474,19 @@ fieldset{
 
     #contact__us{
     background-image: url(../images/background-contactus2.jpg);
+    padding-top: 2rem;
     background-size: cover;
     margin-bottom: 1rem;
     align-items: center;
     background-position-x: center;
     text-align: center;
     color: $color2;
+    }
+
+    
+    .contact__h5{
+        font-size: $size5;
+        padding: 0.5rem;
     }
 }
 
@@ -1525,7 +1541,7 @@ fieldset{
 
         #contact__page{
             background-image: url(../images/background-contactus2.jpg);
-            height: 840px;
+            height: auto;
             background-repeat: no-repeat;
             background-position-x: center;
         }

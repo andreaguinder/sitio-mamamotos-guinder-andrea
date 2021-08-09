@@ -562,7 +562,7 @@ ul.menu__footer {
 }
 
 .legales__p {
-  font-size: 12px;
+  font-size: 14px;
   color: black;
 }
 
@@ -577,6 +577,14 @@ ul.menu__footer {
 
 .video-nosotros {
   border: 8px solid #d6d6d6;
+}
+
+marquee {
+  background-color: rgba(0, 0, 0, 0.774);
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 /*--------------------------PÁGINA DE PRODUCTOS-----------------------*/
@@ -1708,13 +1716,13 @@ fieldset {
 .p__cont {
   text-align: center;
   font-size: 32px;
-  color: rgba(0, 0, 0, 0.637);
+  color: rgba(0, 0, 0, 0.774);
 }
 
 #mapa {
-  border-top: double 10px rgba(0, 0, 0, 0.637);
+  border-top: double 10px rgba(0, 0, 0, 0.774);
   border-right: none;
-  border-bottom: double 10px rgba(0, 0, 0, 0.637);
+  border-bottom: double 10px rgba(0, 0, 0, 0.774);
   border-left: none;
   margin: 0%;
   padding: 0%;

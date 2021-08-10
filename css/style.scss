@@ -341,18 +341,17 @@ main {
 }
 
 div.redireccionamiento {
-    margin: 25px;
-    padding: 25px;
+    margin: 1rem;
+    padding: 1rem;
     text-align: center;
 }
 
 /*---------Tienda Cards y Acordeon Bootstrap---------*/
 
 .card {
-    font-family: "kanit";
     font-weight: normal;
     font-style: italic;
-    font-size: 70%;
+    font-size: $size5;
     text-align: justify;
     color: $color4;
     padding: 20px 20px;
@@ -401,6 +400,113 @@ div.redireccionamiento {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb(36,0214,0)'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
 
+@media only screen and (min-width: 360px){
+
+    .redireccionamiento__h1{
+        font-size: $size4;
+        margin-top: 1rem;
+        }
+    
+    .redireccionamiento__h2{
+        font-size: $size2;
+    }
+    
+    .redireccionamiento__h3{
+        font-size: $size3;
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 480px){
+
+    .redireccionamiento__h1{
+        font-size: $size4;
+        margin-top: 1rem;
+        }
+    
+    .redireccionamiento__h2{
+        font-size: $size2;
+    }
+    
+    .redireccionamiento__h3{
+        font-size: $size3;
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 600px){
+
+    .redireccionamiento__h1{
+        font-size: $size2*2;
+        margin-top: 1rem;
+        }
+    
+    .redireccionamiento__h2{
+        font-size: $size3;
+    }
+    
+    .redireccionamiento__h3{
+        font-size: $size4;
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+
+    .redireccionamiento__h1{
+        font-size: $size2*2;
+        margin-top: 1rem;
+        }
+    
+    .redireccionamiento__h2{
+        font-size: $size3;
+    }
+    
+    .redireccionamiento__h3{
+        font-size: $size4;
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    .redireccionamiento__h1{
+        font-size: $size2*2;
+        margin-top: 1rem;
+        }
+    
+    .redireccionamiento__h2{
+        font-size: $size5;
+    }
+    
+    .redireccionamiento__h3{
+        font-size: $size5;
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    .redireccionamiento__h1{
+        font-size: $size3*2;
+        margin-top: 1rem;
+        }
+    
+    .redireccionamiento__h2{
+        font-size: $size2*2;
+    }
+    
+    .redireccionamiento__h3{
+        font-size: $size3*2;
+        margin-top: 1rem;
+    }
+
+}
 /*------------FOOTER CON GRIDS------------*/
 /*------------FOOTER CON GRIDS------------*/
 /*------------FOOTER CON GRIDS------------*/

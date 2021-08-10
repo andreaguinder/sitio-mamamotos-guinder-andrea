@@ -583,7 +583,6 @@ ul.menu__footer {
 }
 
 .legales {
-  font-family: "kanit";
   text-align: justify;
 }
 
@@ -608,9 +607,17 @@ ul.menu__footer {
   color: black;
 }
 
+/*---PAGINA NOSOTROS---*/
 .carousel-nosotros {
   width: 100%;
-  height: 40vh;
+  height: 14rem;
+}
+
+#videos-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .video-nosotros {
@@ -625,7 +632,6 @@ marquee {
   margin-bottom: 2rem;
 }
 
-/*----Nosotros-----*/
 /*--------------------------PÁGINA DE PRODUCTOS-----------------------*/
 /*--------------Productos: Galería con GRID: Info general-------------*/
 /*--------------Productos: Galería con GRID: Info general-------------*/

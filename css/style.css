@@ -14,12 +14,6 @@ html {
 /*sombras*/
 /*bordes*/
 /*tamaños*/
-/*los H*/
-h3 {
-  font-size: 20px;
-  color: white;
-}
-
 .btn-lonely {
   background-image: linear-gradient(200deg, white, #6d6d6d, white);
   transform: skewX(-15deg);
@@ -191,6 +185,7 @@ h3 {
   color: #24d600;
 }
 
+/*----Redes Sociales----*/
 .button #whatsapp {
   position: fixed;
   bottom: 4rem;
@@ -199,9 +194,28 @@ h3 {
   z-index: 100;
 }
 
+#iconos-redes > a {
+  padding: 1rem;
+}
+
+i {
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgba(27, 27, 27, 0.75);
+}
+
+i:hover {
+  color: #24d600;
+}
+
+/*----Redes----*/
 .h5__cards {
   color: #24d600;
   font-size: 24px;
+}
+
+h3 {
+  color: #585858;
 }
 
 body {
@@ -349,6 +363,15 @@ main {
   .logo__footer {
     margin: 8% 0% 0% 0%;
   }
+
+  footer i {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+
+  footer #iconos-redes > a {
+    padding: 0.5rem;
+  }
 }
 @media only screen and (min-width: 480px) {
   h3 {
@@ -406,6 +429,14 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     align-items: center;
+  }
+
+  footer i {
+    font-size: 28px;
+  }
+
+  footer #iconos-redes > a {
+    padding-inline: 0.5rem;
   }
 }
 /*----------------TIENDA----------------*/
@@ -529,7 +560,7 @@ ul.menu__footer {
 /*-------------- PÁGINAS LEGALES------------*/
 /*-------------- PÁGINAS LEGALES------------*/
 .main__legales {
-  margin: 7rem 3rem 5rem 3rem;
+  margin: 12rem 3rem 5rem 3rem;
 }
 
 .legales {
@@ -556,10 +587,6 @@ ul.menu__footer {
 .legales__p {
   font-size: 14px;
   color: black;
-}
-
-.main__legales--marg {
-  margin: 10rem 3rem 5rem 3rem;
 }
 
 .carousel-nosotros {

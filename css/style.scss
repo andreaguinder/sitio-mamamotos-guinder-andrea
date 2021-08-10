@@ -13,6 +13,7 @@ html{
 @import "btn-lonely";
 @import "cards-index";
 
+/*----Redes Sociales----*/
 .button #whatsapp {
     position: fixed;
     bottom: 4rem;
@@ -21,10 +22,28 @@ html{
     z-index: 100;
 }
 
+#iconos-redes>a{
+    padding: 1rem;
+}
+
+i{
+    color: $color2;
+    font-size: $size5*2;
+    text-shadow: $shadow-all;
+}
+
+i:hover{
+    color: $color1;
+}
+/*----Redes----*/
 
 .h5__cards{
     color: $color1;
     font-size: $size1*2;
+}
+
+h3{
+    color: $color5;
 }
 
 body {
@@ -180,14 +199,21 @@ main {
 
 @media only screen and (min-width: 360px) {
 
-
-
     .container__footer {
         grid-template-columns: 1fr;
     }
 
     .logo__footer{
         margin: 8% 0% 0% 0%;
+    }
+
+    footer i{
+        font-size: $size2*2;
+        margin-bottom: 1rem;
+    }
+
+    footer #iconos-redes>a{
+        padding: 0.5rem;
     }
 
 }
@@ -261,6 +287,14 @@ main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
         align-items: center;
+    }
+
+    footer i{
+        font-size: $size2*2;
+    }
+
+    footer #iconos-redes>a{
+        padding-inline: 0.5rem;
     }
 }
 
@@ -388,7 +422,7 @@ ul.menu__footer{
 /*-------------- PÁGINAS LEGALES------------*/
 
 .main__legales{
-    margin: 7rem 3rem 5rem 3rem;
+    margin: 12rem 3rem 5rem 3rem;
 }
 
 .legales {
@@ -399,7 +433,7 @@ ul.menu__footer{
 .legales__h3 {
     font-weight: bold;
     text-align: left;
-    font-size: 24px;
+    font-size: $size1*2;
     color: $color5;
 }
 
@@ -415,10 +449,6 @@ ul.menu__footer{
 .legales__p {
     font-size: $size2;
     color: $color3;
-}
-
-.main__legales--marg{
-    margin: 10rem 3rem 5rem 3rem;
 }
 
 .carousel-nosotros {
@@ -1375,8 +1405,6 @@ fieldset{
     place-items: center;
 }
 
-
-
 .btn-outline-success:hover {
     background-color: $color2;
     border-color: $color1;
@@ -1386,6 +1414,7 @@ fieldset{
     background-color: $color1;
     border-color: $color1;
 }
+
 @media only screen and (min-width: 360px) and (max-width: 480px) {
 
     .grid__contact{
@@ -1519,8 +1548,8 @@ fieldset{
 
     .grid__contact--item2{
         margin: 1rem;
-
     }
+
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 

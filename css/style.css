@@ -370,6 +370,11 @@ main {
 /*------Footer Responsive con Grids y Media Queries--------*/
 /*------Footer Responsive con Grids y Media Queries--------*/
 @media only screen and (min-width: 360px) {
+  i {
+    font-size: 32px;
+    margin-bottom: 1rem;
+  }
+
   .container__footer {
     grid-template-columns: 1fr;
   }

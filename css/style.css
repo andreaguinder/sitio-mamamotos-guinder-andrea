@@ -231,6 +231,10 @@ body {
 }
 
 @media only screen and (min-width: 360px) {
+  .h3-index {
+    font-size: 18px;
+  }
+
   #index__bigscreen {
     display: none;
   }
@@ -246,7 +250,8 @@ body {
     background-color: black;
     color: white;
     align-items: center;
-    height: 4rem;
+    height: 4.5rem;
+    margin-bottom: -2rem;
   }
 
   .h4__carousel--mod {
@@ -264,6 +269,10 @@ body {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+  .h3-index {
+    font-size: 24px;
+  }
+
   #index__bigscreen {
     display: none;
   }
@@ -279,7 +288,7 @@ body {
     background-color: black;
     color: white;
     align-items: center;
-    height: 4.5rem;
+    height: 5rem;
   }
 
   .h4__carousel--mod {
@@ -299,6 +308,11 @@ body {
 
   #index__mobile {
     display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .h3-index {
+    font-size: 32px;
   }
 }
 /*------------------HEADER-------------------*/
@@ -334,11 +348,11 @@ main {
 
 .gale-index {
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 #section3-index {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 /*----Botón Contacto Index con Flexbox y Bootstrap----*/

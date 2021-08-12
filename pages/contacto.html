@@ -88,36 +88,34 @@
                     </div>
                 </div>
                 <div class="grid__contact--item grid__contact--item2">
-                <form action method="POST" enctype="application/x-www-form-urlencoded" class="form__contact p-3">
+                <form action="../php/enviar.php" method="POST" enctype="application/x-www-form-urlencoded" class="form__contact p-3">
                     <fieldset class="p-3">
                     <h5 class="contact__h5" class="text-center">PEDÍ TU PRESUPUESTO PERSONALIZADO</h5>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label align-content-sm-start col-form-label-sm">Nombre y Apellido</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Juan Perez">
+                        <label for="nombre-y-apellido" class="form-label align-content-sm-start col-form-label-sm">Nombre y Apellido</label>
+                        <input type="text" class="form-control bg-white btn-secondary" id="nombre-y-apellido" placeholder="Juan Perez" name="nombre" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label col-form-label-sm">Teléfono</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="+5491168670983">
+                        <label for="telefono" class="form-label col-form-label-sm">Teléfono</label>
+                        <input type="text" class="form-control bg-white btn-secondary" id="telefono" placeholder="+5491168670983" name="telefono" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label col-form-label-sm">E-mail</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="juanperez@gmail.com">
+                        <label for="email" class="form-label col-form-label-sm">E-mail</label>
+                        <input type="email" class="form-control bg-white btn-secondary" id="email" placeholder="juanperez@gmail.com" name="email" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label col-form-label-sm">Mensaje</label>
-                        <textarea class="form-control" placeholder="Quisiera consultar el precio de..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="mensaje" class="form-label col-form-label-sm">Mensaje</label>
+                        <textarea class="form-control bg-white btn-secondary" placeholder="Quisiera consultar el precio de..." id="mensaje" rows="3" name="mensaje"></textarea>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input btn-outline-success" type="checkbox" value="aceptar-terminos-y-condiciones" id="flexCheckChecked" checked>
-                        <label class="form-check-label col-form-label-sm " for="flexCheckChecked">Acepto Términos y Condiciones</label>
+                        <input class="form-check-input btn-outline-success" type="checkbox" value="aceptar-terminos-y-condiciones" id="terminos-y-condiciones" name="terminos" checked required>
+                        <label class="form-check-label col-form-label-sm " for="terminos-y-condiciones">Acepto Términos y Condiciones</label>
                     </div>
 
                     <div class="text-center p-2">
-                    <input type="reset" class="btn btn-secondary m-1" name="Restablecer" id="Restablecer" value="Restablecer" autocomplete="off">
-                    <input type="submit" class="btn btn-secondary m-1" name="Enviar" id="Enviar" value="Enviar" autocomplete="off">
+                    <input type="reset" class="btn btn-secondary m-1" name="restablecer" id="Restablecer" value="Restablecer" autocomplete="off">
+                    <input type="submit" class="btn btn-secondary m-1" name="enviar" id="Enviar" value="Enviar" autocomplete="off">
                     </div>
                 </fieldset>
                 </form></div>

@@ -384,22 +384,7 @@ div.redireccionamiento {
 
 /*---------Tienda Cards y Acordeon Bootstrap---------*/
 
-.card {
-    font-weight: normal;
-    font-style: italic;
-    font-size: $size5;
-    text-align: justify;
-    color: $color4;
-    padding: 20px 20px;
-    box-shadow: $box-shadow-box;
-}
-
-.card--tienda { @extend .card;
-    background-color: $color6;
-    box-shadow: $box-shadow-none;
-    border-left: $border-left;
-    border-right: $border-right;
-}
+@import "cards-tienda";
 
 .accordion-button{
     color: $color4;

@@ -7,6 +7,12 @@
 /*sombras*/
 /*bordes*/
 /*tamaños*/
+#container__cards--tienda i {
+  color: #d6d6d6;
+  font-size: 120px;
+  text-shadow: 2px 2px 2px rgba(27, 27, 27, 0.75);
+}
+
 h3 {
   color: #24d600;
   text-align: center;
@@ -14,7 +20,7 @@ h3 {
   padding: 0.5rem;
 }
 
-.cardBox {
+.card-box {
   float: left;
   font-size: 1.2em;
   margin: 1% 0 0 1%;
@@ -23,7 +29,7 @@ h3 {
   width: 30%;
 }
 
-.cardBox:hover .card {
+.card-box:hover .card {
   transform: rotateY(180deg);
 }
 
@@ -40,10 +46,15 @@ h3 {
 }
 
 .front {
-  background-color: white;
-  background-size: contain;
+  background-image: url(../images/elegante-fondo-blanco-textura_23-2148431731.jpg);
+  background-size: cover;
   border-left: 4px solid #585858;
   border-right: 4px solid #24d600;
+  padding: 5% 5% 5% 5%;
+}
+
+.back {
+  padding: 25% 5% 5% 5%;
 }
 
 .card p {
@@ -62,7 +73,6 @@ h3 {
   display: block;
   font-size: 1.2em;
   height: 100%;
-  padding: 4.5rem;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -86,21 +96,21 @@ h3 {
 }
 
 .card .back {
-  background-image: url(../images/bbb-whopasmall.jpg);
-  background-size: contain;
+  background-image: url(../images/elegante-fondo-blanco-textura_23-2148431731.jpg);
+  background-size: cover;
 }
 
-.cardBox:nth-child(1) .card {
+.card-box:nth-child(1) .card {
   -webkit-animation: giro 1.5s 1;
   animation: giro 1.5s 1;
 }
 
-.cardBox:nth-child(2) .card {
+.card-box:nth-child(2) .card {
   -webkit-animation: giro 2s 1;
   animation: giro 2s 1;
 }
 
-.cardBox:nth-child(3) .card {
+.card-box:nth-child(3) .card {
   -webkit-animation: giro 2.5s 1;
   animation: giro 2.5s 1;
 }
@@ -122,7 +132,7 @@ h3 {
   }
 }
 @media screen and (max-width: 767px) {
-  .cardBox {
+  .card-box {
     margin-left: 2.8%;
     margin-top: 3%;
     width: 46%;
@@ -137,7 +147,7 @@ h3 {
   }
 }
 @media screen and (max-width: 480px) {
-  .cardBox {
+  .card-box {
     width: 94.5%;
   }
 

@@ -1,8 +1,4 @@
-$color_white: #fff;
-$color_prime: rgb(36,0214,0);
-$color_grey: #e2e2e2;
-$color_grey_dark: #a2a2a2;
-
+@import "datos";
 
 .blog-card {
     height: 280px;
@@ -10,7 +6,7 @@ $color_grey_dark: #a2a2a2;
     padding-left: 0;
     display: flex;
     box-shadow: 0 3px 7px -1px rgba(#000, .1);
-    background: $color_white;
+    background: $color2;
     line-height: 1.4;
     border-radius: 5px;
     overflow: hidden;
@@ -52,7 +48,7 @@ $color_grey_dark: #a2a2a2;
         margin: auto;
         transition: left .2s;
         background: rgba(#000, .6);
-        color: $color_white;
+        color: $color2;
         padding: 10px;
         width: 100%;
         font-size: 0.9rem;
@@ -73,7 +69,7 @@ $color_grey_dark: #a2a2a2;
     }
     .description {
         padding: 1rem;
-        background: $color_white;
+        background: $color2;
         position: relative;
         z-index: 1;
 
@@ -87,7 +83,7 @@ $color_grey_dark: #a2a2a2;
             font-size: 1rem;
             font-weight: 300;
             text-transform: uppercase;
-            color: $color_grey_dark;
+            color: $color6;
             margin-top: 5px;
         }
 
@@ -95,7 +91,7 @@ $color_grey_dark: #a2a2a2;
             text-align: right;
 
             a {
-                color: $color_prime;
+                color: $color1;
                 display: inline-block;
                 position: relative;
 
@@ -124,7 +120,7 @@ $color_grey_dark: #a2a2a2;
             &:before {
                 position: absolute;
                 height: 5px;
-                background: $color_prime;
+                background: $color1;
                 width: 35px;
                 top: -0.75rem;
                 border-radius: 3px;
@@ -151,7 +147,7 @@ $color_grey_dark: #a2a2a2;
             &:before {
                 transform: skewX(-3deg);
                 content: "";
-                background: #fff;
+                background: $color2;
                 width: 30px;
                 position: absolute;
                 left: -10px;
@@ -184,5 +180,5 @@ $color_grey_dark: #a2a2a2;
 }
 
 .h5__cards{
-    color: rgb(36,0214,0);
+    color: $color1;
 }

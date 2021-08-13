@@ -4,7 +4,13 @@
 
 @import "datos";
 
-
+#container__cards--tienda{
+    i{
+    color: $color7;
+    font-size: $size5*6;
+    text-shadow: $shadow-all;
+    }
+}
 
 h3 {
     color: $color1;
@@ -13,7 +19,7 @@ h3 {
     padding: 0.5rem;
 }
 
-.cardBox {
+.card-box {
     float: left;
     font-size: 1.2em;
     margin: 1% 0 0 1%;
@@ -22,7 +28,7 @@ h3 {
     width: 30%;
 }
 
-.cardBox:hover .card {
+.card-box:hover .card {
     transform: rotateY(180deg);
 }
 
@@ -39,10 +45,15 @@ h3 {
 }
 
 .front{
-    background-color: $color2;
-    background-size: contain;
+    background-image: url(../images/elegante-fondo-blanco-textura_23-2148431731.jpg);
+    background-size: cover;
     border-left: $border-left;
     border-right: $border-right;
+    padding: 5% 5% 5% 5%;
+}
+
+.back{
+    padding: 25% 5% 5% 5%;
 }
 
 .card p {
@@ -60,7 +71,6 @@ h3 {
     display: block;
     font-size: 1.2em;
     height: 100%;
-    padding: 4.5rem;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -84,21 +94,21 @@ h3 {
 }
 
 .card .back {
-    background-image: url(../images/bbb-whopasmall.jpg);
-    background-size: contain;
+    background-image: url(../images/elegante-fondo-blanco-textura_23-2148431731.jpg);
+    background-size: cover;
 }
 
-.cardBox:nth-child(1) .card {
+.card-box:nth-child(1) .card {
     -webkit-animation: giro 1.5s 1;
     animation: giro 1.5s 1;
 }
 
-.cardBox:nth-child(2) .card {
+.card-box:nth-child(2) .card {
     -webkit-animation: giro 2s 1;
     animation: giro 2s 1;
 }
 
-.cardBox:nth-child(3) .card {
+.card-box:nth-child(3) .card {
     -webkit-animation: giro 2.5s 1;
     animation: giro 2.5s 1;
 }
@@ -124,7 +134,7 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
-    .cardBox {
+    .card-box {
         margin-left: 2.8%;
         margin-top: 3%;
         width: 46%;
@@ -140,7 +150,7 @@ h3 {
 }
 
 @media screen and (max-width: 480px) {
-    .cardBox {
+    .card-box {
         width: 94.5%;
     }
 

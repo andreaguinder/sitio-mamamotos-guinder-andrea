@@ -193,6 +193,23 @@ html {
   color: #24d600;
 }
 
+.btn-container {
+  position: relative;
+  display: inline-block;
+}
+.btn-container a {
+  position: absolute;
+  bottom: -10rem;
+  right: -5em;
+  padding: 1em 1.5em;
+}
+
+.btn-index a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
 /*----Redes Sociales----*/
 .button #whatsapp {
   position: fixed;

@@ -193,21 +193,22 @@ html {
   color: #24d600;
 }
 
+/*----botones en galeria index----*/
 .btn-container {
   position: relative;
   display: inline-block;
-}
-.btn-container a {
-  position: absolute;
-  bottom: -10rem;
-  right: -5em;
-  padding: 1em 1.5em;
+  text-align: center;
 }
 
-.btn-index a {
+.btn-index {
+  padding: 0.1rem 0.1rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  background-color: #24d600;
+  border: none;
 }
 
 /*----Redes Sociales----*/
@@ -239,7 +240,7 @@ i:hover {
   font-size: 24px;
 }
 
-h3 {
+.h3-index {
   color: #585858;
 }
 
@@ -1849,6 +1850,13 @@ fieldset {
 .form-check-input:checked {
   background-color: #24d600;
   border-color: #24d600;
+}
+
+.btn-contact {
+  text-decoration: none;
+  color: white;
+  background-color: #24d600;
+  border: none;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {

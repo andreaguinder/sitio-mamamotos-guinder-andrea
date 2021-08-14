@@ -13,27 +13,26 @@ html{
 @import "btn-lonely";
 @import "cards-index";
 
+
+/*----botones en galeria index----*/
 .btn-container{
     position: relative;
     display: inline-block;
+    text-align: center;
 
-    a{
-        position: absolute;
-        bottom:-10rem;
-        right:-5em;
-        padding:1em 1.5em;
-    }
 }
 
 .btn-index{
-
-
-    a{
+        padding: 0.1rem 0.1rem;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
         text-decoration: none;
         color: $color2;
-        font-weight: bold;
-    }
+        background-color: $color1;
+        border: none;
 }
+
 /*----Redes Sociales----*/
 .button #whatsapp {
     position: fixed;
@@ -63,7 +62,7 @@ i:hover{
     font-size: $size1*2;
 }
 
-h3{
+.h3-index{
     color: $color5;
 }
 
@@ -1590,6 +1589,13 @@ fieldset{
 .form-check-input:checked {
     background-color: $color1;
     border-color: $color1;
+}
+
+.btn-contact{
+    text-decoration: none;
+    color: $color2;
+    background-color: $color1;
+    border: none;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {

@@ -240,8 +240,16 @@ i:hover {
   font-size: 24px;
 }
 
-.h3-index {
+.h3__index {
   color: #585858;
+}
+
+.h3__index--color {
+  color: white;
+}
+
+#container-title {
+  background-color: rgba(0, 0, 0, 0.774);
 }
 
 body {
@@ -257,7 +265,7 @@ body {
 }
 
 @media only screen and (min-width: 360px) {
-  .h3-index {
+  .h3__index {
     font-size: 18px;
   }
 
@@ -295,7 +303,7 @@ body {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .h3-index {
+  .h3__index {
     font-size: 24px;
   }
 
@@ -337,7 +345,7 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .h3-index {
+  .h3__index {
     font-size: 32px;
   }
 }
@@ -2072,7 +2080,7 @@ fieldset {
 .p__cont {
   text-align: center;
   font-size: 32px;
-  color: rgba(0, 0, 0, 0.774);
+  color: #585858;
 }
 
 #mapa {

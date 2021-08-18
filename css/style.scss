@@ -62,8 +62,16 @@ i:hover{
     font-size: $size1*2;
 }
 
-.h3-index{
+.h3__index{
     color: $color5;
+}
+
+.h3__index--color{
+    color: $color2;
+}
+
+#container-title{
+    background-color: $color8;
 }
 
 body {
@@ -81,7 +89,7 @@ body {
 
 @media only screen and (min-width: 360px) {
 
-    .h3-index{
+    .h3__index{
         font-size: $size4;
     }
 
@@ -121,7 +129,7 @@ body {
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
-    .h3-index{
+    .h3__index{
         font-size: $size1*2;
     }
 
@@ -165,7 +173,7 @@ body {
 }
 @media only screen and (min-width: 1024px){
 
-.h3-index{
+.h3__index{
     font-size: $size3*2;
 }
 
@@ -1827,7 +1835,7 @@ fieldset{
 .p__cont {
     text-align: center;
     font-size: $size5 + $size1;
-    color: $color8;
+    color: $color5;
 }
 
 #mapa {

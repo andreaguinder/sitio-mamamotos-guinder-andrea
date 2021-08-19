@@ -420,11 +420,6 @@ main {
 }
 
 @media only screen and (min-width: 360px) {
-  i {
-    font-size: 32px;
-    margin-bottom: 1rem;
-  }
-
   .container__footer {
     grid-template-columns: 1fr;
   }
@@ -563,6 +558,7 @@ div.redireccionamiento {
 #container__cards--tienda i {
   color: #d6d6d6;
   font-size: 120px;
+  margin-bottom: 14px;
   text-shadow: 2px 2px 2px rgba(27, 27, 27, 0.75);
 }
 
@@ -706,6 +702,14 @@ h3 {
 
   .card {
     height: 260px;
+  }
+
+  #container__cards--tienda i {
+    font-size: 100px;
+    margin-bottom: 12px;
+  }
+  #container__cards--tienda p {
+    font-size: 12px;
   }
 }
 .accordion-button {

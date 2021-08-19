@@ -8,6 +8,7 @@
     i{
     color: $color7;
     font-size: $size5*6;
+    margin-bottom: $size2;
     text-shadow: $shadow-all;
     }
 }
@@ -156,5 +157,17 @@ h3 {
 
     .card {
         height: 260px;
+    }
+
+
+    #container__cards--tienda{
+        i{
+        font-size: $size5*5;
+        margin-bottom: $size1;
+        }
+
+        p{
+            font-size: $size1;
+        }
     }
 }

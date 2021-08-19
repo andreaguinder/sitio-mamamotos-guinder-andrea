@@ -12,6 +12,7 @@ Cada página fue estructurada correctamente con las etiquetas semánticas propia
 Se hace uso del framework Bootstrap para elementos puntuales, y se lo personaliza en detalle para darle identidad adecuada al sitio.
 Se define una paleta de colores, estilos y tamaños y se mantiene a lo largo de todo el sitio.
 Se utiliza JavaScript a través del framework, para darle dinamismo al sitio generando atractivo, interés y permanencia en el mismo.
+Se utilizan variados efectos Hover y animaciones para generar atractivo en el sitio.
 Se definen meta tags, tamaños de imagen y otros, correspondientes a un buen porcentaje de SEO en todas las páginas.
 Se define el código mediante un estilo limpio con nesting y tabulaciones correctas para estructurar el selector.
 Se definen clases consistentes en kebab-case y se utiliza además la metodología BEM.

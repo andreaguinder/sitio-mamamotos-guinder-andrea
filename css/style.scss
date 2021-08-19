@@ -982,13 +982,17 @@ marquee{
 /*-------MOBILE FIRST GALERÍA en 360px 480px 600px 768px 1024px 1200px-------*/
 /*-------MOBILE FIRST GALERÍA en 360px 480px 600px 768px 1024px 1200px-------*/
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 480px) {
     .grid-container {
         grid-template-columns: 1fr;
     }
 
     #gallery{
         margin: 45% 2% 5% 2%;
+    }
+
+    .grid-item {
+        height: 19rem;
     }
 }
 

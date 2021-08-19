@@ -718,6 +718,7 @@ h3 {
 .accordion-body {
   color: #797979;
   font-size: 80%;
+  text-align: justify;
 }
 
 .accordion-item {
@@ -899,6 +900,7 @@ ul.menu__footer {
 .legales__p {
   font-size: 14px;
   color: black;
+  text-align: justify;
 }
 
 /*---PAGINA NOSOTROS---*/
@@ -926,6 +928,11 @@ marquee {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 480px) {
+  .legales__h3--text {
+    font-size: 16px;
+  }
+}
 /*--------------------------PÁGINA DE PRODUCTOS-----------------------*/
 /*--------------Productos: Galería con GRID: Info general-------------*/
 /*--------------Productos: Galería con GRID: Info general-------------*/
@@ -945,7 +952,7 @@ marquee {
   justify-content: center;
 }
 
-.gridItem {
+.grid-item {
   min-height: 240px;
   min-width: 220px;
   background-color: aqua;
@@ -953,14 +960,14 @@ marquee {
   border-radius: 0.2rem;
 }
 
-.gridItem:hover {
+.grid-item:hover {
   transform: scale(1.04);
   transition: 0.5s;
   filter: none;
   box-shadow: 5px 5px 5px 1px rgba(43, 42, 42, 0.774);
 }
 
-.gridContainer {
+.grid-container {
   width: 95%;
   margin: auto;
   height: auto;
@@ -1057,7 +1064,7 @@ marquee {
 .item10 {
   grid-area: "item10";
   background-color: peru;
-  background-image: url(../images/nayasa-ey198.jpg);
+  background-image: url(../images/ey-198-urbana-nayasa.jpg);
   background-size: cover;
   background-position: center;
   filter: grayscale(1);
@@ -1066,7 +1073,7 @@ marquee {
 .item11 {
   grid-area: "item11";
   background-color: sienna;
-  background-image: url(../images/crossf897.jpg);
+  background-image: url(../images/f-923-enduro-hf.jpg);
   background-size: cover;
   background-position: center;
   filter: grayscale(1);
@@ -1247,7 +1254,7 @@ marquee {
 /*-------MOBILE FIRST GALERÍA en 360px 480px 600px 768px 1024px 1200px-------*/
 /*-------MOBILE FIRST GALERÍA en 360px 480px 600px 768px 1024px 1200px-------*/
 @media only screen and (min-width: 360px) {
-  .gridContainer {
+  .grid-container {
     grid-template-columns: 1fr;
   }
 
@@ -1256,11 +1263,11 @@ marquee {
   }
 }
 @media only screen and (min-width: 480px) {
-  .gridContainer {
+  .grid-container {
     grid-template-columns: 1fr 1fr;
   }
 
-  .gridItem {
+  .grid-item {
     min-height: 150px;
     min-width: 150px;
   }
@@ -1270,11 +1277,11 @@ marquee {
   }
 }
 @media only screen and (min-width: 600px) {
-  .gridContainer {
+  .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .gridItem {
+  .grid-item {
     min-width: 150px;
   }
 
@@ -1359,11 +1366,11 @@ marquee {
   }
 }
 @media only screen and (min-width: 768px) {
-  .gridContainer {
+  .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .gridItem {
+  .grid-item {
     min-height: 200px;
   }
 
@@ -1449,11 +1456,11 @@ marquee {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .gridContainer {
+  .grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .gridItem {
+  .grid-item {
     min-height: 220px;
   }
 
@@ -1587,11 +1594,11 @@ marquee {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .gridContainer {
+  .grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
-  .gridItem {
+  .grid-item {
     min-height: 260px;
   }
 
